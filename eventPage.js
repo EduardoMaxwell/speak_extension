@@ -1,6 +1,6 @@
 var menuItem = {
     "id": "speak",
-    "title": "Wikit",
+    "title": "Speak",
     "contexts": ["selection"]
 };
 
