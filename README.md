@@ -1,4 +1,4 @@
-# This extension speaks the word or text you've selected.
+# This extension speaks the text that you select.
 
 ## How to use it
 
