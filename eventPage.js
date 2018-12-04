@@ -1,10 +1,10 @@
-var menuItem = {
-    "id": "speak",
-    "title": "Speak",
-    "contexts": ["selection"]
-};
-
-chrome.contextMenus.create(menuItem);
+chrome.runtime.onInstalled.addListener(function() {
+	chrome.contextMenus.create({
+	    "id": "speak",
+	    "title": "Speak",
+	    "contexts": ["selection"]	
+	});
+});
 
 chrome.contextMenus.onClicked.addListener(function(clickData){
     if (clickData.menuItemId == "speak" && clickData.selectionText) {
